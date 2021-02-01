@@ -1,0 +1,7 @@
+Version
+mqtt:
+  container_name:mqtt
+  image: eclipse/mosquitto
+  restart: always
+  volumes:
+    - /root:/mosquitto/config 
